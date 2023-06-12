@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora de IMC</title>
+  </head>
+  <body>
+    <section class="section-main">
+      <div class="img-and-container">
+        <img src="./imgs/ursinho-img.png" alt="ursinho-img" />
+        <div class="container">
+          <h1>Calculadora de IMC</h1>
+          <div class="traço-enfeite margin-left"></div>
+          <div class="margin-left">
+            <label for="weight">Peso (kg):</label>
+            <input
+              class="input-container"
+              type="number"
+              id="weight"
+              placeholder="Digite o peso (Ex: 80)"
+              step="0.01"
+            />
+
+            <label for="height">Altura (m):</label>
+            <input
+              class="input-container"
+              type="number"
+              id="height"
+              placeholder="Digite a altura (Ex: 1.85)"
+              step="0.01"
+            />
+
+            <button onclick="calcularIMC()">Calcular</button>
+          </div>
+
+          <div class="margin-left" id="result"></div>
+          <div class="mais-sobre-imc margin-left">
+            <a
+              class="link"
+              href="https://brasilescola.uol.com.br/educacao-fisica/Indice-massa-corporal-imc.htm"
+              >Mais sobre IMC
+              <img
+                class="icon-link margin-left"
+                src="./imgs/sair-do-canto-superior-direito.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
