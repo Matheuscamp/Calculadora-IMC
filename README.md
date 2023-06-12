@@ -1,6 +1,6 @@
 # Calculadora-IMC
 
-This is a project aimed at studying HTML, CSS and JS. The main objective is to create a website to calculate the imc.
+This is a project to calculate the IMC.
 
 # Preview
 
@@ -9,6 +9,12 @@ This is a project aimed at studying HTML, CSS and JS. The main objective is to c
 ## Live link:
 
 https://matheuscamp.github.io/Calculadora-IMC/
+
+## Technologies used
+
+- JavaScript
+- HTML
+- CSS
 
 ## Instructions to run:
 
