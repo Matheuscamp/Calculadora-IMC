@@ -1,4 +1,4 @@
-# Calculadora-IMC
+# Calculadora IMC
 
 This is a project to calculate the IMC.
 
