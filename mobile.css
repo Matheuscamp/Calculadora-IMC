@@ -1,1 +1,15 @@
-
+@media only screen and (max-device-width: 769px) {
+  .ursinho-img {
+    display: none;
+  }
+  .container {
+    width: auto;
+    height: auto;
+  }
+  .img-and-container {
+    margin-top: 150px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
